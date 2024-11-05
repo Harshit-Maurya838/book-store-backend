@@ -11,7 +11,7 @@ main().then(()=> console.log("MongoDB connect succesfully")).catch(err => consol
 // middleware
 app.use(express.json())
 app.use(cors({
-    origin: ['http://localhost:5173/', 'https://bookstore-git-main-harshit-mauryas-projects.vercel.app/'],
+    origin: ['http://localhost:5173/', 'https://bookstore-git-main-harshit-mauryas-projects.vercel.app/', 'https://bookstore-5ejr6vxqp-harshit-mauryas-projects.vercel.app/'],
     credentials: true
 }))
 
